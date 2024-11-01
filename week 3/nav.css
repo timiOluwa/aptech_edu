@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+}
+
+header .logo{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.nav-bar{
+    display: flex;
+    width: 75%;
+    margin-left: 80px;
+    justify-content: space-between;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-button{
+    
+    
+    padding: 5px;
+    position: absolute;
+    right: 35px;
+    cursor: pointer;
+    display: none;
+  
+    
+}
+
+.bar{
+    background-color: white;
+    padding: 1px 10px;
+
+}
+
+.bar2{
+    background-color: white;
+    padding: 1px 10px;
+    margin-top: 3px;
+
+}
+
+.bar3{
+    background-color: white;
+    padding: 1px 10px;
+    margin-top: 3px;
+
+}
+
+aside {
+    
+    border-right: 3px solid gray;
+    padding: 20px;
+    width: 30%;
+    height: 90vh;
+}
+
+main{
+    display: flex;
+}
+
+section{
+    width: 65%;
+    padding: 20px;
+}
+
+h2{
+    font-size: 3em;
+}
+
+.content{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+
+
+footer{
+    background-color: gray;
+    padding: 40px;
+}
+
+/* android screen */
+@media screen and (max-width: 480px) {
+    .nav-button{
+        display: block;
+        position: absolute;
+        right: 35px;
+        cursor: pointer;
+        
+    }
+    
+    .bar{
+        background-color: white;
+        padding: 1px 10px;
+    
+    }
+    
+    .bar2{
+        background-color: white;
+        padding: 1px 10px;
+        margin-top: 3px;
+    
+    }
+    
+    .bar3{
+        background-color: white;
+        padding: 1px 10px;
+        margin-top: 3px;
+    
+    }
+    aside {
+    
+        border-right: 3px solid gray;
+        padding: 20px;
+        width: 30%;
+        height: 90vh;
+        display: none;
+    }
+
+     .nav-bar a{
+        text-decoration: none;
+        color: white;
+        display: block;
+        position: relative;
+        background-color: gray;
+        font-size: 1em;
+        text-align: center;
+        padding-bottom: 10px;
+        display: none;
+    } 
+
+   .nav-bar{
+    display: block;
+    width: 75%;
+    margin-left: 80px;
+    justify-content: space-between;
+   
+    
+}
+
+    .content{
+       
+        background-color: gray;
+    }
+
+    section{
+        width: 100%;
+        
+        margin: auto ;
+        
+    }
+    
+    .main-content{
+        text-align: center;
+        font-size: 2em;
+    }
+}

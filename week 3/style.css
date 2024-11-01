@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-1{
+    background-color: whitesmoke;
+    
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
+    justify-content: space-between;
+    border-bottom: solid;
+    border-bottom-width: .1px;
+    border-bottom-color: rgb(223, 223, 223);
+}
+
+.nav-div-1{
+    display: flex;
+}
+.nav-div-2{
+    display: flex;
+    align-items: center;
+    
+}
+
+select{
+    border: none;
+    margin-right: 40px;
+    background-color: whitesmoke;
+}
+
+.nav-2{
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, .1);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
+    justify-content: space-between;
+    border-bottom: solid;
+    border-bottom-width: .1px;
+    border-bottom-color: rgb(223, 223, 223);
+    
+}
+
+.nav-button{
+   
+    width: 200px;
+    height: 30px;
+    font-weight: bold;
+     border: none;
+     background-color: rgb(255, 96, 96);
+     color: white;
+     border-radius: 10px;
+     cursor: pointer;
+     margin-left: 30px;
+}
+
+main{
+    background-color: whitesmoke;
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: auto;
+    width: 100%;
+}
+h1{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.image-1{
+    display: flex;
+    align-items: center;
+}
+
+.image-2{
+    color: gray;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    margin-left: 10px;
+}
+
+.main{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .4);
+}
+
+.now{
+    background-color: rgb(255, 96, 96);
+    width: 400px;
+    height: 40px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 40px;
+
+}
+
+hr{
+    border-width: 1px;
+    border-color: black;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-family: cursive;
+    color: red;
+}
+
+.hub{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.now:hover{
+    opacity: .3;
+}
+
+.last-comment{
+    width: 500px;
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 30px;
+    
+}
+
+.comment{
+    display: flex;
+    justify-content: center;
+}
+
+.span{
+    text-decoration: underline;
+    color: skyblue;
+}

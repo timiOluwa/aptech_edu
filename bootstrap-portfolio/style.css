@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#nav{
+  background: linear-gradient(to right, #6f42c1 , #d122e3);
+ 
+}
+
+nav li{
+  padding: 0 0.9rem;
+}
+
+nav button{
+
+  position: relative;
+  padding: 0.8rem 3rem 0.94rem 1rem;
+  border: 0.0119rem solid white;
+}
+
+nav span{
+  position: absolute;
+  background-color: #6f42c1;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+nav svg{
+  fill: white;
+  size: 1rem;
+  
+  margin-top: 5px;
+}
+
+nav button:hover{
+  background: linear-gradient(to right, #6f42c1 , #d122e3);
+  color: white;
+  
+  span{
+    background-color: black;
+    opacity: .5;
+  }
+}
+
+
+
+
+
+
+@media screen and(max-width:600px) {
+  nav button{
+    display: none;
+  }
+}
+
+
+
+#getintouch{
+  border: 1px solid white;
+  background-color: white;
+}
+
+.intro-section{
+  background: linear-gradient(to right, #6f42c1 , #d122e3);
+
+  padding: 10rem 0 0 0;
+}
+
+.intro-section button{
+
+  position: relative;
+  padding: 0.6rem 3rem 0.6rem 1rem;
+  border: 0.0119rem solid white;
+  margin-bottom: 2rem;
+}
+
+.intro-section span{
+  position: absolute;
+  background-color: #6f42c1;
+  width: 1.8rem;
+  height: 1.8rem;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.intro-section svg{
+  fill: white;
+  size: 0.2rem;
+}
+
+.intro-section button:hover{
+  background: linear-gradient(to right, #6f42c1 , #d122e3);
+  color: white;
+  
+  span{
+    background-color: black;
+    opacity: .5;
+  }
+}
